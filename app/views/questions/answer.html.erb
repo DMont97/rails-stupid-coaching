@@ -1,0 +1,17 @@
+<div class="m-5">
+  <div class="shadow p-3 mb-5 bg-body rounded border-start border-success border-3">
+    <h3><%= @message %></h3>
+    <p>- You</p>
+  </div>
+
+  <div class="shadow p-3 mb-5 bg-body rounded border-start border-warning border-3">
+    <h3><%= @coach_answer %></h3>
+    <p>- Your coach</p>
+  </div><h3>
+
+  <div class="m-5">
+    <button type="button" class="btn btn-outline-warning">
+      <%= link_to "Ask a new question", ask_path %>
+    </button>
+  </div>
+</div>
